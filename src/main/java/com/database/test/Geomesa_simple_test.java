@@ -19,19 +19,18 @@ public class Geomesa_simple_test {
 	
 	public static void main(String[] args) {	
 
-		try {
-			
+		try {			
 			// initializing the schema
 			 initialize();
-			
+		
 			// inserting data points
-			 insert_data(count);
+			// insert_data(count);
 			
 			// querying the data points
-			double lat_min=33.0;
+			double lat_min=30.0;
 			double lat_max=33.1;
 			double lng_min=62.0;
-			double lng_max=62.1;
+			double lng_max=65.1;
 			
 			JSONArray result = gmh.Query_Box_Lat_Lng(lat_min, lat_max, lng_min, lng_max);
 			System.out.println(": Side of Result _Box_Lat_Lng :" + result.size());
