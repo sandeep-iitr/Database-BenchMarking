@@ -19,5 +19,5 @@ for file in files:
 #format of Data is:
 #
  for row in reader:
-  print(row)
+  print("%s , %s "%(row[56],row[57]))
  break
