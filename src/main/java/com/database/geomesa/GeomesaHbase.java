@@ -1,3 +1,8 @@
+/*
+ * Steps:
+ * 	) Start HBase first inorder to run this code
+ * 
+ */
 package com.database.geomesa;
 
 import io.vertx.core.json.JsonArray;
@@ -62,7 +67,7 @@ public class GeomesaHbase {
 				// Features
 				// of this type to the table
 				//System.out.println("Creating feature-type (schema):  " + simpleFeatureTypeName);
-				dataStore.createSchema(simpleFeatureType);
+				//dataStore.createSchema(simpleFeatureType);
 				
 				
 			}//end if
