@@ -15,3 +15,6 @@ Use Apache HBase™ when you need random, realtime read/write access to your Big
 ## Building
 This is a apache Maven project, and can be compiled and tested using the mvn commands.
 Requires, the Hbase database installed on local machine, at the default port running.
+
+## Hadoop
+### 1. Installation
