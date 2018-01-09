@@ -19,3 +19,9 @@ Requires, the Hbase database installed on local machine, at the default port run
 ## Hadoop
 ### 1. Installation
 [Single Node Cluster](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
+- Download the stable version of Hadoop
+- Make changes in the etc/hadoop/core-site.xml and etc/hadoop/hdfs-site.xml.
+- Specify Java path in etc/hadoop/hadoop-env.sh
+- Format the File System bin/hdfs namenode -format
+- Start NameNode Daemon and DataNode Daemon sbin/start-dfs.sh
+- NameNode available at (http://localhost:50070/)[http://localhost:50070/]
