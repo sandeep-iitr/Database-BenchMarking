@@ -18,3 +18,4 @@ Requires, the Hbase database installed on local machine, at the default port run
 
 ## Hadoop
 ### 1. Installation
+[Single Node Cluster](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
