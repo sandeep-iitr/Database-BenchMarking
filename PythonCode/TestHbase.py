@@ -7,13 +7,24 @@
 # ./hbase thrift start
 
 import happybase
+from HBaseUtils import CreateTable
 
-connection = happybase.Connection('localhost')
+hostName='localhost'
+tableName='HBase-Test'
+
+#connection = happybase.Connection('localhost')
+
 # before first use:
-connection.open()
+#connection.open()
 
-print(connection.tables())
+# Create the table, if not already created
+CreateTable()
 
-connection.close()
+
+#print(connection.tables())
+#connection.close()
+
+
+
 
 
