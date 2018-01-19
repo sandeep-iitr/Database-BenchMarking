@@ -7,7 +7,7 @@
 # ./hbase thrift start
 
 import happybase
-from HBaseUtils import CreateTable
+from HBaseUtils import CreateTable,InsertData,GetData
 
 hostName='localhost'
 tableName='HBase-Test'
@@ -24,7 +24,6 @@ CreateTable()
 #print(connection.tables())
 #connection.close()
 
+InsertData("Sample_Data")
 
-
-
-
+GetData()
