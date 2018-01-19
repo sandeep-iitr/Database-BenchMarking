@@ -19,3 +19,6 @@ def CreateTable():
               }
              )
         print('Table',tableName, 'created')
+
+def InsertData():
+    
